@@ -1,0 +1,6 @@
+cc_prebuilt_library_shared {
+    name: "libsoter_trusty",
+    vendor: true,
+    srcs: ["lib64/libtrusty.so"],
+    relative_install_path: "vendor/lib64",
+}
